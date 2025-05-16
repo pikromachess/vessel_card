@@ -1,0 +1,36 @@
+C:\Users\Полина\Desktop\Поиск судна\vesssel_card\vesssel_card\bin\Debug\vesssel_card.exe.config
+C:\Users\Полина\Desktop\Поиск судна\vesssel_card\vesssel_card\bin\Debug\vesssel_card.exe
+C:\Users\Полина\Desktop\Поиск судна\vesssel_card\vesssel_card\bin\Debug\vesssel_card.pdb
+C:\Users\Полина\Desktop\Поиск судна\vesssel_card\vesssel_card\obj\Debug\vesssel_card.csproj.AssemblyReference.cache
+C:\Users\Полина\Desktop\Поиск судна\vesssel_card\vesssel_card\obj\Debug\MainWindow.g.cs
+C:\Users\Полина\Desktop\Поиск судна\vesssel_card\vesssel_card\obj\Debug\App.g.cs
+C:\Users\Полина\Desktop\Поиск судна\vesssel_card\vesssel_card\obj\Debug\vesssel_card_MarkupCompile.cache
+C:\Users\Полина\Desktop\Поиск судна\vesssel_card\vesssel_card\obj\Debug\vesssel_card_MarkupCompile.lref
+C:\Users\Полина\Desktop\Поиск судна\vesssel_card\vesssel_card\obj\Debug\MainWindow.baml
+C:\Users\Полина\Desktop\Поиск судна\vesssel_card\vesssel_card\obj\Debug\vesssel_card.g.resources
+C:\Users\Полина\Desktop\Поиск судна\vesssel_card\vesssel_card\obj\Debug\vesssel_card.Properties.Resources.resources
+C:\Users\Полина\Desktop\Поиск судна\vesssel_card\vesssel_card\obj\Debug\vesssel_card.csproj.GenerateResource.cache
+C:\Users\Полина\Desktop\Поиск судна\vesssel_card\vesssel_card\obj\Debug\vesssel_card.csproj.CoreCompileInputs.cache
+C:\Users\Полина\Desktop\Поиск судна\vesssel_card\vesssel_card\obj\Debug\vesssel_card.exe
+C:\Users\Полина\Desktop\Поиск судна\vesssel_card\vesssel_card\obj\Debug\vesssel_card.pdb
+C:\Users\Полина\Desktop\Поиск судна\vesssel_card\vesssel_card\obj\Debug\VesselCard.g.cs
+C:\Users\Полина\Desktop\Поиск судна\vesssel_card\vesssel_card\obj\Debug\VesselCard.baml
+C:\Users\Полина\Desktop\Поиск судна\vesssel_card\vesssel_card\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\vesssel_card\vesssel_card\bin\Debug\vesssel_card.exe.config
+D:\vesssel_card\vesssel_card\bin\Debug\vesssel_card.exe
+D:\vesssel_card\vesssel_card\bin\Debug\vesssel_card.pdb
+D:\vesssel_card\vesssel_card\obj\Debug\vesssel_card.csproj.AssemblyReference.cache
+D:\vesssel_card\vesssel_card\obj\Debug\MainWindow.g.cs
+D:\vesssel_card\vesssel_card\obj\Debug\VesselCard.g.cs
+D:\vesssel_card\vesssel_card\obj\Debug\App.g.cs
+D:\vesssel_card\vesssel_card\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\vesssel_card\vesssel_card\obj\Debug\vesssel_card_MarkupCompile.cache
+D:\vesssel_card\vesssel_card\obj\Debug\vesssel_card_MarkupCompile.lref
+D:\vesssel_card\vesssel_card\obj\Debug\MainWindow.baml
+D:\vesssel_card\vesssel_card\obj\Debug\VesselCard.baml
+D:\vesssel_card\vesssel_card\obj\Debug\vesssel_card.g.resources
+D:\vesssel_card\vesssel_card\obj\Debug\vesssel_card.Properties.Resources.resources
+D:\vesssel_card\vesssel_card\obj\Debug\vesssel_card.csproj.GenerateResource.cache
+D:\vesssel_card\vesssel_card\obj\Debug\vesssel_card.csproj.CoreCompileInputs.cache
+D:\vesssel_card\vesssel_card\obj\Debug\vesssel_card.exe
+D:\vesssel_card\vesssel_card\obj\Debug\vesssel_card.pdb

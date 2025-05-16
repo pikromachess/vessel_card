@@ -1,0 +1,181 @@
+﻿<Window x:Class="vesssel_card.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:vesssel_card" xmlns:localClasses="clr-namespace:vesssel_card.Classes"
+        mc:Ignorable="d"
+        Title="Справочник судов" Height="450" Width="800" WindowState="Maximized">
+    <Window.Resources>
+        <localClasses:TextToCollapsedConverter x:Key="TextToCollapsedConverter"/>
+    </Window.Resources>
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+
+            <Button Content="Cоздать документ" Margin="3" Padding="4" HorizontalContentAlignment="Center" Grid.Column="1" Click="ClickCreate" Width="200"/>                    
+     
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid HorizontalAlignment="Stretch" Margin="2">
+
+                <TextBox Text="Тип судна" Foreground="Gray" Background="Transparent" 
+              Padding="2" IsEnabled="False" BorderThickness="0" 
+              VerticalAlignment="Stretch" VerticalContentAlignment="Center" 
+              Visibility="{Binding Text, ElementName=tb_searchVesselType, Converter={StaticResource TextToCollapsedConverter}}"/>
+
+                <TextBox x:Name="tb_searchVesselType" TextChanged="tb_searchTextChanged"
+              Padding="2" BorderThickness="1" Background="Transparent"
+              VerticalAlignment="Stretch" VerticalContentAlignment="Center"/>
+            </Grid>
+
+            <Grid Grid.Column="1"  HorizontalAlignment="Stretch" Margin="2">
+
+                <TextBox Text="Год журнала" Foreground="Gray" Background="Transparent" 
+              Padding="2" IsEnabled="False" BorderThickness="0" 
+              VerticalAlignment="Stretch" VerticalContentAlignment="Center" 
+              Visibility="{Binding Text, ElementName=tb_searchJournalYear, Converter={StaticResource TextToCollapsedConverter}}"/>
+
+                <TextBox x:Name="tb_searchJournalYear" TextChanged="tb_searchTextChanged"
+              Padding="2" BorderThickness="1" Background="Transparent"
+              VerticalAlignment="Stretch" VerticalContentAlignment="Center"/>
+            </Grid>
+
+            <Grid Grid.Column="2"  HorizontalAlignment="Stretch" Margin="2">
+
+               <TextBox Text="Тип длины" Foreground="Gray" Background="Transparent" 
+              Padding="2" IsEnabled="False" BorderThickness="0" 
+              VerticalAlignment="Stretch" VerticalContentAlignment="Center" 
+              Visibility="{Binding Text, ElementName=tb_searchLengthType, Converter={StaticResource TextToCollapsedConverter}}"/>
+
+                <TextBox x:Name="tb_searchLengthType" TextChanged="tb_searchTextChanged"
+              Padding="2" BorderThickness="1" Background="Transparent"
+              VerticalAlignment="Stretch" VerticalContentAlignment="Center"/>       
+            </Grid>
+
+            <Grid Grid.Column="3"  HorizontalAlignment="Stretch" Margin="2">
+
+                <TextBox Text="Длина" Foreground="Gray" Background="Transparent" 
+              Padding="2" IsEnabled="False" BorderThickness="0" 
+              VerticalAlignment="Stretch" VerticalContentAlignment="Center" 
+              Visibility="{Binding Text, ElementName=tb_searchLengthValue, Converter={StaticResource TextToCollapsedConverter}}"/>
+
+                <TextBox x:Name="tb_searchLengthValue" TextChanged="tb_searchTextChanged"
+              Padding="2" BorderThickness="1" Background="Transparent"
+              VerticalAlignment="Stretch" VerticalContentAlignment="Center"/>           
+            </Grid>
+
+            <Grid Grid.Column="4"  HorizontalAlignment="Stretch" Margin="2">
+
+                <TextBox Text="Ширина" Foreground="Gray" Background="Transparent" 
+                  Padding="2" IsEnabled="False" BorderThickness="0" 
+                  VerticalAlignment="Stretch" VerticalContentAlignment="Center" 
+                  Visibility="{Binding Text, ElementName=tb_searchWidth, Converter={StaticResource TextToCollapsedConverter}}"/>
+
+                <TextBox x:Name="tb_searchWidth" TextChanged="tb_searchTextChanged"
+                  Padding="2" BorderThickness="1" Background="Transparent"
+                  VerticalAlignment="Stretch" VerticalContentAlignment="Center"/>   
+            </Grid>
+
+            <Grid Grid.Column="5"  HorizontalAlignment="Stretch" Margin="2">
+
+                <TextBox Text="Высота борта" Foreground="Gray" Background="Transparent" 
+                  Padding="2" IsEnabled="False" BorderThickness="0" 
+                  VerticalAlignment="Stretch" VerticalContentAlignment="Center" 
+                  Visibility="{Binding Text, ElementName=tb_searchSideHeight, Converter={StaticResource TextToCollapsedConverter}}"/>
+
+                <TextBox x:Name="tb_searchSideHeight" TextChanged="tb_searchTextChanged"
+                  Padding="2" BorderThickness="1" Background="Transparent"
+                  VerticalAlignment="Stretch" VerticalContentAlignment="Center"/>   
+            </Grid>
+
+            <Grid Grid.Column="6"  HorizontalAlignment="Stretch" Margin="2">
+
+                <TextBox Text="Осадка" Foreground="Gray" Background="Transparent" 
+           Padding="2" IsEnabled="False" BorderThickness="0" 
+           VerticalAlignment="Stretch" VerticalContentAlignment="Center" 
+           Visibility="{Binding Text, ElementName=tb_searchDraught, Converter={StaticResource TextToCollapsedConverter}}"/>
+
+                <TextBox x:Name="tb_searchDraught" TextChanged="tb_searchTextChanged"
+           Padding="2" BorderThickness="1" Background="Transparent"
+           VerticalAlignment="Stretch" VerticalContentAlignment="Center"/>
+            </Grid>
+
+            <Grid Grid.Column="7"  HorizontalAlignment="Stretch" Margin="2">
+
+                <TextBox Text="Водоизмещение" Foreground="Gray" Background="Transparent" 
+           Padding="2" IsEnabled="False" BorderThickness="0" 
+           VerticalAlignment="Stretch" VerticalContentAlignment="Center" 
+           Visibility="{Binding Text, ElementName=tb_searchDisplacement, Converter={StaticResource TextToCollapsedConverter}}"/>
+
+                <TextBox x:Name="tb_searchDisplacement" TextChanged="tb_searchTextChanged"
+           Padding="2" BorderThickness="1" Background="Transparent"
+           VerticalAlignment="Stretch" VerticalContentAlignment="Center"/>
+            </Grid>
+
+            <Grid Grid.Column="8"  HorizontalAlignment="Stretch" Margin="2">
+
+                <TextBox Text="Дедвейт" Foreground="Gray" Background="Transparent" 
+           Padding="2" IsEnabled="False" BorderThickness="0" 
+           VerticalAlignment="Stretch" VerticalContentAlignment="Center" 
+           Visibility="{Binding Text, ElementName=tb_searchDeadweight, Converter={StaticResource TextToCollapsedConverter}}"/>
+
+                <TextBox x:Name="tb_searchDeadweight" TextChanged="tb_searchTextChanged"
+           Padding="2" BorderThickness="1" Background="Transparent"
+           VerticalAlignment="Stretch" VerticalContentAlignment="Center"/>
+            </Grid>
+
+            <Grid Grid.Column="9"  HorizontalAlignment="Stretch" Margin="2">
+
+                <TextBox Text="Скорость" Foreground="Gray" Background="Transparent" 
+           Padding="2" IsEnabled="False" BorderThickness="0" 
+           VerticalAlignment="Stretch" VerticalContentAlignment="Center" 
+           Visibility="{Binding Text, ElementName=tb_searchSpeed, Converter={StaticResource TextToCollapsedConverter}}"/>
+
+                <TextBox x:Name="tb_searchSpeed" TextChanged="tb_searchTextChanged"
+           Padding="2" BorderThickness="1" Background="Transparent"
+           VerticalAlignment="Stretch" VerticalContentAlignment="Center"/>
+            </Grid>
+
+        </Grid>
+
+        
+        <DataGrid Name="dg_documents" Grid.Row="2" IsReadOnly="True" AutoGenerateColumns="False" CanUserAddRows="False" MouseDoubleClick="dg_documents_MouseDoubleClick">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Тип судна" Binding="{Binding VesselType}" Width="*"/>
+                <DataGridTextColumn Header="Год журнала" Binding="{Binding JournalYear}" Width="*"/>
+                <DataGridTextColumn Header="Тип длины" Binding="{Binding LengthType}" Width="*"/>
+                <DataGridTextColumn Header="Длина" Binding="{Binding LengthValue}" Width="*"/>
+                <DataGridTextColumn Header="Ширина" Binding="{Binding Width}" Width="*"/>
+                <DataGridTextColumn Header="Высота борта" Binding="{Binding SideHeight}" Width="*"/>
+                <DataGridTextColumn Header="Осадка" Binding="{Binding Draught}" Width="*"/>
+                <DataGridTextColumn Header="Водоизмещение" Binding="{Binding Displacement}" Width="*"/>
+                <DataGridTextColumn Header="Дедвейт" Binding="{Binding Deadweight}" Width="*"/>
+                <DataGridTextColumn Header="Скорость" Binding="{Binding Speed}" Width="*"/>
+                
+            </DataGrid.Columns>
+        </DataGrid>
+        
+    </Grid>
+</Window>

@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\vesssel_card\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC58C646-074B-4836-A1C5-738EC2AAADFF}|vesssel_card\\vesssel_card.csproj|D:\\vesssel_card\\vesssel_card\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC58C646-074B-4836-A1C5-738EC2AAADFF}|vesssel_card\\vesssel_card.csproj|solutionrelative:vesssel_card\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC58C646-074B-4836-A1C5-738EC2AAADFF}|vesssel_card\\vesssel_card.csproj|d:\\vesssel_card\\vesssel_card\\vesselcard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC58C646-074B-4836-A1C5-738EC2AAADFF}|vesssel_card\\vesssel_card.csproj|solutionrelative:vesssel_card\\vesselcard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC58C646-074B-4836-A1C5-738EC2AAADFF}|vesssel_card\\vesssel_card.csproj|D:\\vesssel_card\\vesssel_card\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC58C646-074B-4836-A1C5-738EC2AAADFF}|vesssel_card\\vesssel_card.csproj|solutionrelative:vesssel_card\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC58C646-074B-4836-A1C5-738EC2AAADFF}|vesssel_card\\vesssel_card.csproj|D:\\vesssel_card\\vesssel_card\\vesselcard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC58C646-074B-4836-A1C5-738EC2AAADFF}|vesssel_card\\vesssel_card.csproj|solutionrelative:vesssel_card\\vesselcard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC58C646-074B-4836-A1C5-738EC2AAADFF}|vesssel_card\\vesssel_card.csproj|D:\\vesssel_card\\vesssel_card\\classes\\vesseltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC58C646-074B-4836-A1C5-738EC2AAADFF}|vesssel_card\\vesssel_card.csproj|solutionrelative:vesssel_card\\classes\\vesseltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC58C646-074B-4836-A1C5-738EC2AAADFF}|vesssel_card\\vesssel_card.csproj|D:\\vesssel_card\\vesssel_card\\classes\\documentcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC58C646-074B-4836-A1C5-738EC2AAADFF}|vesssel_card\\vesssel_card.csproj|solutionrelative:vesssel_card\\classes\\documentcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC58C646-074B-4836-A1C5-738EC2AAADFF}|vesssel_card\\vesssel_card.csproj|D:\\vesssel_card\\vesssel_card\\classes\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC58C646-074B-4836-A1C5-738EC2AAADFF}|vesssel_card\\vesssel_card.csproj|solutionrelative:vesssel_card\\classes\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC58C646-074B-4836-A1C5-738EC2AAADFF}|vesssel_card\\vesssel_card.csproj|D:\\vesssel_card\\vesssel_card\\classes\\journalyear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC58C646-074B-4836-A1C5-738EC2AAADFF}|vesssel_card\\vesssel_card.csproj|solutionrelative:vesssel_card\\classes\\journalyear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Document.cs",
+              "DocumentMoniker": "D:\\vesssel_card\\vesssel_card\\Classes\\Document.cs",
+              "RelativeDocumentMoniker": "vesssel_card\\Classes\\Document.cs",
+              "ToolTip": "D:\\vesssel_card\\vesssel_card\\Classes\\Document.cs",
+              "RelativeToolTip": "vesssel_card\\Classes\\Document.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T18:07:18.695Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JournalYear.cs",
+              "DocumentMoniker": "D:\\vesssel_card\\vesssel_card\\Classes\\JournalYear.cs",
+              "RelativeDocumentMoniker": "vesssel_card\\Classes\\JournalYear.cs",
+              "ToolTip": "D:\\vesssel_card\\vesssel_card\\Classes\\JournalYear.cs",
+              "RelativeToolTip": "vesssel_card\\Classes\\JournalYear.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T08:18:07.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VesselType.cs",
+              "DocumentMoniker": "D:\\vesssel_card\\vesssel_card\\Classes\\VesselType.cs",
+              "RelativeDocumentMoniker": "vesssel_card\\Classes\\VesselType.cs",
+              "ToolTip": "D:\\vesssel_card\\vesssel_card\\Classes\\VesselType.cs",
+              "RelativeToolTip": "vesssel_card\\Classes\\VesselType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T08:13:02.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VesselCard.xaml.cs",
+              "DocumentMoniker": "D:\\vesssel_card\\vesssel_card\\VesselCard.xaml.cs",
+              "RelativeDocumentMoniker": "vesssel_card\\VesselCard.xaml.cs",
+              "ToolTip": "D:\\vesssel_card\\vesssel_card\\VesselCard.xaml.cs",
+              "RelativeToolTip": "vesssel_card\\VesselCard.xaml.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAswIEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:48:56.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\vesssel_card\\vesssel_card\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "vesssel_card\\MainWindow.xaml",
+              "ToolTip": "D:\\vesssel_card\\vesssel_card\\MainWindow.xaml",
+              "RelativeToolTip": "vesssel_card\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-11T17:41:35.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DocumentCollection.cs",
+              "DocumentMoniker": "D:\\vesssel_card\\vesssel_card\\Classes\\DocumentCollection.cs",
+              "RelativeDocumentMoniker": "vesssel_card\\Classes\\DocumentCollection.cs",
+              "ToolTip": "D:\\vesssel_card\\vesssel_card\\Classes\\DocumentCollection.cs",
+              "RelativeToolTip": "vesssel_card\\Classes\\DocumentCollection.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA9wDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T07:31:54.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VesselCard.xaml",
+              "DocumentMoniker": "D:\\vesssel_card\\vesssel_card\\VesselCard.xaml",
+              "RelativeDocumentMoniker": "vesssel_card\\VesselCard.xaml",
+              "ToolTip": "D:\\vesssel_card\\vesssel_card\\VesselCard.xaml",
+              "RelativeToolTip": "vesssel_card\\VesselCard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-11T17:50:32.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\vesssel_card\\vesssel_card\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "vesssel_card\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\vesssel_card\\vesssel_card\\MainWindow.xaml.cs",
+              "RelativeToolTip": "vesssel_card\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:48:35.549Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
